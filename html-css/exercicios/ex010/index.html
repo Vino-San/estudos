@@ -7,12 +7,20 @@
 </head>
 <body>
     <h1>Imagem Dinânmica</h1>
-    <p>tente abrir esse site em vários dispositivos ou simplismente aumente e diminua o tamamnho do navegador</p>
+    <p>tente abrir esse site em vários dispositivos ou simplismente aumente e diminua o tamamnho do navegador.</p>
     
     <picture>
         <source media="(max-width: 750px)" srcset="img/imgP.png" type="image/png">
         <source media="(max-width: 1050px)" srcset="img/imgM.png" type="image/png">
         <img src="img/imgG.png" alt="Imagem Flexível">
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em html5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <h1>pinto</h1>
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baicar o arquivo MP3</a></p>
+    </audio>
 </body>
 </html>
